@@ -10,6 +10,5 @@ exports.sendProductBody = (product) => {
   result += `\n\n${product.descriptionUz
     .replace("<p>", "")
     .replace("</p>", "")}`;
-  console.log(product.descriptionUz);
   return result;
 };

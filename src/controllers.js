@@ -73,25 +73,7 @@ exports.product = async (ctx, next) => {
     const { data } = await axios.get(
       `https://ideallux-mdldl.ondigitalocean.app/api/v1/products/${product}`
     );
-    console.log(data.data.product.images[0].location);
     ctx.answerCbQuery();
-    //     ctx.replyWithMediaGroup([
-    //       {
-    //         type: "photo",
-    //         media: data.data.product.images[0].location,
-    //         caption: "Caption for photo 1",
-    //       },
-    //       {
-    //         type: "photo",
-    //         media: data.data.product.images[0].location,
-    //         caption: "Caption for photo 1",
-    //       },
-    //     ]);
-    //     ctx.replyWithPhoto(data.data.product.images[0].location, {
-    //       caption: sendProductBody(data.data.product),
-    //       parse_mode: "HTML",
-    //     });
-
     ctx.sendPhoto(data.data.product.images[0].location, {
       caption: sendProductBody(data.data.product),
       parse_mode: "HTML",
