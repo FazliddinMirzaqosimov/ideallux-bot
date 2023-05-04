@@ -8,8 +8,6 @@ exports.sendProductBody = (product) => {
   });
 
   result += `\n\n${product.descriptionUz}`;
-  console.log(
-    product.descriptionUz.replaceAll("<p>", "").replaceAll("</p>", "")
-  );
+  console.log(product.descriptionUz);
   return result;
 };
