@@ -1,0 +1,116 @@
+{
+     "_id": "644b6b2b4ee870ebe0f72a21",
+     "images": [
+          {
+               "_id": "644b6b8c4ee870ebe0f72cc0",
+               "name": "413-1682664328164-L110eco BELYY.png",
+               "location": "https://ideallux-space.nyc3.digitaloceanspaces.com/413-1682664328164-L110eco%20BELYY.png"
+          },
+          {
+               "_id": "644b6b8c4ee870ebe0f72cc1",
+               "name": "522-1682664328170-L110eco SERYY.png",
+               "location": "https://ideallux-space.nyc3.digitaloceanspaces.com/522-1682664328170-L110eco%20SERYY.png"
+          },
+          {
+               "_id": "644b6b8c4ee870ebe0f72cc2",
+               "name": "317-1682664328205-L110eco CHERNYY.png",
+               "location": "https://ideallux-space.nyc3.digitaloceanspaces.com/317-1682664328205-L110eco%20CHERNYY.png"
+          }
+     ],
+     "category": {
+          "_id": "644a96274ee870ebe0f5a549",
+          "nameUz": "Gaz Plitalar",
+          "nameRu": "Газовые плиты",
+          "image": "645164032c411410c68b4daa"
+     },
+     "aboutUz": [
+          {
+               "variable": "Gaz qozonlari",
+               "value": "4",
+               "_id": "64516bb42c411410c68b9602"
+          },
+          {
+               "variable": "Pechning hajmi",
+               "value": "65 lt",
+               "_id": "64516bb42c411410c68b9603"
+          },
+          {
+               "variable": "Quvvat manbai",
+               "value": "220V/50Hz",
+               "_id": "64516bb42c411410c68b9604"
+          },
+          {
+               "variable": "Tabiiy gaz",
+               "value": "20 mBar",
+               "_id": "64516bb42c411410c68b9605"
+          },
+          {
+               "variable": "LPG",
+               "value": "30 mBar",
+               "_id": "64516bb42c411410c68b9606"
+          },
+          {
+               "variable": "Quvvat iste'moli",
+               "value": "2,75 Vt",
+               "_id": "64516bb42c411410c68b9607"
+          },
+          {
+               "variable": "Emal kvadrat list",
+               "value": "1 dona",
+               "_id": "64516bb42c411410c68b9608"
+          },
+          {
+               "variable": "Og'irligi (brut)",
+               "value": "37 kg",
+               "_id": "64516bb42c411410c68b9609"
+          }
+     ],
+     "aboutRu": [
+          {
+               "variable": "Газовые котлы",
+               "value": "4",
+               "_id": "64516bb42c411410c68b960a"
+          },
+          {
+               "variable": "Объем духовки",
+               "value": "65 л",
+               "_id": "64516bb42c411410c68b960b"
+          },
+          {
+               "variable": "Электропитание",
+               "value": "220В/50Гц",
+               "_id": "64516bb42c411410c68b960c"
+          },
+          {
+               "variable": "Природный газ",
+               "value": "20 мбар",
+               "_id": "64516bb42c411410c68b960d"
+          },
+          {
+               "variable": "LPG",
+               "value": "30 мбар",
+               "_id": "64516bb42c411410c68b960e"
+          },
+          {
+               "variable": "Потребляемая мощность",
+               "value": "2,75 Вт",
+               "_id": "64516bb42c411410c68b960f"
+          },
+          {
+               "variable": "Эмалевый квадратный лист",
+               "value": "1 шт.",
+               "_id": "64516bb42c411410c68b9610"
+          },
+          {
+               "variable": "Вес (брутто)",
+               "value": "37 кг",
+               "_id": "64516bb42c411410c68b9611"
+          }
+     ],
+     "titleRu": "Газовая плита L-110 эко",
+     "titleUz": "Gaz Plita L-110 eco",
+     "descriptionRu": "<p>Электрическая духовка (сверху), Газовая духовка (снизу), Термостат духовки, Дверца из двухслойного стекла, Регулировка высоты духовки, Размеры без упаковки (ШхВхГ), мм 850х600х600, Размеры с упаковкой (ШхВхГ), мм 880х650х630</p>",
+     "descriptionUz": "<p>Elektr pechi (yuqori), Gaz pechi (pastki qism), Pech termostati, 2 qavatli oynali eshik,  Pechning balandligini sozlash, Qadoqsiz o&#x27;lcham (BxExCh), mm 850x600x600, Qadoqli o’lcham (BxExCh), mm 880x650x630</p>",
+     "created": "2023-04-27T15:21:07.551Z",
+     "__v": 0
+}
