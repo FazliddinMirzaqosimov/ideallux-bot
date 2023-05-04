@@ -87,7 +87,12 @@ exports.product = async (ctx, next) => {
     //         caption: "Caption for photo 1",
     //       },
     //     ]);
-    ctx.replyWithPhoto(data.data.product.images[0].location, {
+    //     ctx.replyWithPhoto(data.data.product.images[0].location, {
+    //       caption: sendProductBody(data.data.product),
+    //       parse_mode: "HTML",
+    //     });
+
+    ctx.sendPhoto(data.data.product.images[0].location, {
       caption: sendProductBody(data.data.product),
       parse_mode: "HTML",
     });
