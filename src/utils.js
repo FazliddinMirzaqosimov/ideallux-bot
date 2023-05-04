@@ -7,9 +7,9 @@ exports.sendProductBody = (product) => {
     result += `\n${about.variable} ____ ${about.value}`;
   });
 
-  result += `\n\n${product.descriptionUz
-    .replaceAll("<p>", "")
-    .replaceAll("</p>", "")} `;
-
+  result += `\n\n${product.descriptionUz}`;
+  console.log(
+    product.descriptionUz.replaceAll("<p>", "").replaceAll("</p>", "")
+  );
   return result;
 };

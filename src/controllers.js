@@ -25,7 +25,7 @@ exports.catalogs = async (ctx) => {
     const res = await axios.get(`${apiUrl}/api/v1/categories`);
     categories = res.data.data.categories;
 
-    ctx.deleteMessage();
+    ctx.telegram.deleteMessage();
     ctx.sendMessage("Choose catalogs", {
       reply_markup: {
         inline_keyboard: categories.map((category) => {
