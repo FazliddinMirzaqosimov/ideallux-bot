@@ -1,7 +1,7 @@
 exports.sendProductBody = (product) => {
   // x = "qweqwe".padEnd(20,"-")
   let result = `<b>${product.titleUz}</b>`;
-  result += `\n\nCategory ____ ${product.category.nameUz}`;
+  result += `\n\nCatalog ____ ${product.category.nameUz}`;
 
   product.aboutUz.forEach((about) => {
     result += `\n${about.variable} ____ ${about.value}`;
